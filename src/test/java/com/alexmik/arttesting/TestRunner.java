@@ -1,7 +1,6 @@
 package com.alexmik.arttesting;
 
 import com.alexmik.arttesting.utils.ConfigReader;
-import com.alexmik.arttesting.utils.TestSettings;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;

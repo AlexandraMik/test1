@@ -19,11 +19,8 @@ public class Hooks {
     @Before(order = 0)
     public void launchBrowser() {
         String browserName = "";
-        try {
-            browserName = ConfigReader.getBrowserType();
-        } catch (Throwable e) {
-            e.printStackTrace();
-        }
+        browserName = ConfigReader.getBrowserType();
+
         testSettings = new TestSettings();
         driver = testSettings.initDriver(browserName);
     }
