@@ -1,8 +1,5 @@
 package com.alexmik.arttesting.tests;
 
-
-
-
 import com.alexmik.arttesting.pages.ItemPage;
 import com.alexmik.arttesting.pages.ItemsPage;
 import com.alexmik.arttesting.pages.MainPage;

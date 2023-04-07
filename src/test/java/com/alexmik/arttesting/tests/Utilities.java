@@ -1,5 +1,6 @@
 package com.alexmik.arttesting.tests;
 
+
 import com.alexmik.arttesting.utils.ConfigReader;
 import com.alexmik.arttesting.utils.TestSettings;
 import io.cucumber.java.After;
@@ -12,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.ByteArrayInputStream;
 
-public class Hooks {
+public class Utilities {
     private TestSettings testSettings;
     private WebDriver driver;
 
