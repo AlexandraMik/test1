@@ -21,7 +21,7 @@ public class TestFail {
         }
         mainPage.stringSearch("Жираф");
     }
-    @Then("name of first item contains orange")
+    @Then("name of first item not contains orange")
     public void FinalStep(){
         Assert.assertTrue(itemsPage.checkNNameInCatalog("Апельсин", 0));
     }
